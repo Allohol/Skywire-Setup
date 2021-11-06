@@ -8,3 +8,5 @@ installation:
 3. ./sky_setup.sh
 
 and follow installscript
+
+Testet on RaspberryPi Zero,3,4 and Bananapi M2
