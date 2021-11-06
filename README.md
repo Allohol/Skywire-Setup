@@ -1,6 +1,7 @@
 # skywiresetup
 Skywire Setup for Raspbian OS
-Installation for Skywire 0.5.1 Visor and Hypervisor
+
+Installation of Skywire 0.5.1 Visor and Hypervisor
 
 installation:
 1. Download
