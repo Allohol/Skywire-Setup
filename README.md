@@ -9,4 +9,4 @@ installation:
 
 and follow installscript
 
-Testet on RaspberryPi Zero,3,4 and Bananapi M2
+Testet on RaspberryPi Zero,3,4 and Bananapi M2 Zero
