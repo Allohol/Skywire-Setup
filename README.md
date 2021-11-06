@@ -6,4 +6,5 @@ installation:
 1. Download
 2. chmod +x sky_setup
 3. ./sky_setup.sh
+
 and follow installscript
