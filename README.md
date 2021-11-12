@@ -10,5 +10,6 @@ installation:
 
 and follow installscript
 
-Tested and runs on RaspberryPi Zero,3,4 and Bananapi M2 Zero 
+Tested and runs on RaspberryPi Zero,3,4 and Bananapi M2 Zero
+
 Visor and Hypervisor config located on /etc/skywire-config.json
