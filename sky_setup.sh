@@ -2,7 +2,7 @@
 cd ~
 echo "****************************************************************************"
 echo "*                                                                          *"
-echo "*    Skywire Hypervisor & Visor v0.5.1 Setup for Raspberry P3 & 4 & 0 WH   *"
+echo "*    Skywire Hypervisor & Visor v0.5.1 Setup for Raspberry P 0WH, 3 & 4    *"
 echo "*           Include Raspberry update & Autoupdater & Autostart             *"
 echo "*                                by Allo                                   *"
 echo "*                                                                          *"
