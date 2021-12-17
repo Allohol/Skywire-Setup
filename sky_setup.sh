@@ -16,8 +16,8 @@ echo
 echo -e "${RED}>>>>>>>>>> SYSTEM UPDATE${STDT}"
 sudo apt update && sudo apt upgrade -y
 sudo apt install -y cron-apt
-
 	#CONFIG CRON-APT 
+echo	
 echo -e "${RED}Configure Autoupdates: ALL AVAILABLE UDATES? [Y/N]${STDT}"
 read UPDATES
 if [[ $UPDATES =~ "y" ]] ; then
