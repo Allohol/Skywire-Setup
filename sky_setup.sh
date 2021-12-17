@@ -18,7 +18,7 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install -y cron-apt
 	#CONFIG CRON-APT 
 echo	
-echo -e "${RED}Configure Autoupdates: ALL AVAILABLE UDATES? [Y/N]${STDT}"
+echo "Configure Autoupdates: ALL AVAILABLE UDATES? [Y/N]"
 read UPDATES
 if [[ $UPDATES =~ "y" ]] ; then
 sed -i -- 's/-d//' /etc/cron-apt/action.d/3-download
