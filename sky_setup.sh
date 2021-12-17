@@ -16,6 +16,13 @@ echo
 echo -e "${RED}>>>>>>>>>> SYSTEM UPDATE${STDT}"
 sudo apt update && sudo apt upgrade -y
 sudo apt install -y cron-apt
+
+	#CONFIG CRON-APT 
+echo -e "${RED}Configure Autoupdates: ALL AVAILABLE UDATES? [Y/N]${STDT}"
+read UPDATES
+if [[ $UPDATES =~ "y" ]] ; then
+sed -i -- 's/-d//' /etc/cron-apt/action.d/3-download
+fi
 	#DIR
 echo
 echo -e "${RED}>>>>>>>>>> CREATE FOLDER${STDT}"
