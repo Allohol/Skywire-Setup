@@ -67,7 +67,4 @@ sudo wget -c https://raw.githubusercontent.com/skycoin/skybian/master/static/sky
 sudo systemctl daemon-reload
 sudo systemctl enable skywire-visor.service
 	#REBOOT
-if [ -f /var/run/reboot-required ]; then
-echo    
-echo "Reboot required!"
-fi
+cat /var/run/reboot-required
