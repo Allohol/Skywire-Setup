@@ -2,7 +2,7 @@
 cd ~
 echo "****************************************************************************"
 echo "*                                                                          *"
-echo "*   Skywire Hypervisor & Visor v0.5.1 Setup for Raspberry Pi 0WH, 3 & 4    *"
+echo "*   Skywire Hypervisor & Visor v1.0.1 Setup for Raspberry Pi 0WH, 3 & 4    *"
 echo "*           Include Raspberry update & Autoupdater & Autostart             *"
 echo "*                                by Allo                                   *"
 echo "*                                                                          *"
@@ -33,7 +33,7 @@ sudo mkdir -p '/tmp/bin'
 	#DOWNLOAD
 echo
 echo -e "${RED}>>>>>>>>>> DOWNLOAD NEEDED FILES FROM OFFICIAL SKY GITHUB${STDT}"
-sudo wget -c https://github.com/skycoin/skywire/releases/download/v0.5.1/skywire-v0.5.1-linux-arm.tar.gz -O '/tmp/skywire.tar.gz'
+sudo wget -c https://github.com/skycoin/skywire/releases/download/v1.0.1/skywire-v1.0.1-linux-amd64.tar.gz -O '/tmp/skywire.tar.gz'
 	#EXTRAC
 echo 
 echo -e "${RED}>>>>>>>>>> EXTRACT TO TEMP${STDT}"
