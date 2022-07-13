@@ -4,8 +4,7 @@ Skywire Setup for Raspbian OS
 Installation of Skywire v1.0.1 Visor and Hypervisor
 
 How to:
-1. Download (git clone https://github.com/Allohol/Skywire-Setup.git)
-2. cd Skywire-Setup
+1. Download (wget https://raw.githubusercontent.com/Allohol/Skywire-Setup/main/sky_setup.sh)
 2. chmod +x sky_setup.sh
 3. ./sky_setup.sh
 
