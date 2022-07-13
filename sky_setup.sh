@@ -63,7 +63,7 @@ sudo sed -i 's/"hypervisors".*/"hypervisors": [ "'$HYPKEY'"],/' /etc/skywire-con
 	#SYSTEMD
 echo
 echo -e "${RED}>>>>>>>>>> INSTALL AUTORUN${STDT}"
-sudo wget -c https://raw.githubusercontent.com/skycoin/skybian/master/static/skywire-visor.service -O /etc/systemd/system/skywire-visor.service
+sudo wget -c https://raw.githubusercontent.com/Allohol/Skywire-Setup/main/skywire-visor.service -O /etc/systemd/system/skywire-visor.service
 sudo systemctl daemon-reload
 sudo systemctl enable skywire-visor.service
 	#REBOOT
